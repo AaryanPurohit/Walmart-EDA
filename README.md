@@ -46,3 +46,4 @@ The company collected the transactional data of customers who purchased products
 8. The management should have some offers on kids (0-17 years) in order to increase sales.
 9. In order to attract more young shoppers, they can offer some games for the younger generation.
 
+Explore this repository to uncover fascinating details about Walmart's data!!!
