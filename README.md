@@ -2,10 +2,25 @@
 ![image](https://github.com/AaryanPurohit/Walmart-EDA/assets/112640418/25ab9692-1694-4ce8-8f82-c42774cf9df8)
 
 ## Overview
-
 Walmart is an American multinational retail corporation that operates a chain of supercenters, discount departmental stores, and grocery stores from the United States. Walmart has more than 100 million customers worldwide.
 
-The Management team at Walmart Inc. wants to analyze the customer purchase behavior (specifically, purchase amount) against the customer’s gender and the various other factors to help the business make better decisions. They want to understand if the spending habits differ between male and female customers: Do women spend more on Black Friday than men? (Assume 50 million customers are male and 50 million are female).
+**In this case study, I delved into a massive dataset comprising a staggering 0.54 million rows to unlock invaluable insights into customer shopping behavior at the retail giant, Walmart. This endeavor involved a combination of exploratory data analysis (EDA), statistical analysis using the Central Limit Theorem, and the powerful Bootstrapping technique.**
+
+## Exploratory Data Analysis (EDA)
+🔍 Exploratory Data Analysis (EDA) was our first port of call. I embarked on a comprehensive adventure, dissecting the dataset through univariate, bivariate, and multivariate analyses. The toolkit included histograms, box plots, pair plots, correlation plots, KDE plots, and more. The goal? To unearth patterns, trends, and hidden gems within this vast sea of data. The revelations were nothing short of captivating. 💎📊
+
+## Central Limit Theorem and Bootstrapping
+📈 The **Central Limit Theorem** became the backbone of our analysis. Leveraging its power, I employed the **Bootstrapping technique** – a resampling marvel – to gain deeper insights into the dataset.
+
+Here's how Bootstrapping elevated our analysis:
+**Comparison of Spending Habits**: I resampled purchase values for both males and females, enabling a detailed comparison of their spending habits. 👫
+**Analyzing Marital Status**: Resampling purchase values based on marital status allowed for an in-depth examination of order values for married and unmarried customers. 💍
+**Understanding Age Groups**: By resampling purchase values according to age groups, I could precisely assess spending patterns across different demographics. 👴👵
+
+This approach yielded multiple simulated datasets, each brimming with valuable insights and a refined understanding of Walmart's diverse customer base. 📊💡
+
+## Statistical Analysis with Confidence Intervals
+🔬 The journey continued with **statistical analysis** conducted at various **confidence intervals** (90%, 95%, and even 99%). These confidence intervals emerged as potent tools, offering a glimpse into the potential range of values for key metrics. Decision-makers can now rely on more accurate information for strategic choices. 📊🔍
 
 ## Understanding the Dataset
 The company collected the transactional data of customers who purchased products from the Walmart Stores during Black Friday. The dataset has the following features:
@@ -21,7 +36,8 @@ The company collected the transactional data of customers who purchased products
 9. **ProductCategory**: Product Category (Masked)
 10. **Purchase**: Purchase Amount
 
-## Inferences
+## Dive into the Insights
+### Inferences
 1. 80% of the users are between the age 18-50 (40%: 26-35, 18%: 18-25, 20%: 36-45)
 2. 75% of the users are Male and 25% are Female. Males clearly purchase more than females.
 3. 59% Single, 41% Married
@@ -35,7 +51,7 @@ The company collected the transactional data of customers who purchased products
 11. In City Category C, there are slightly more female customers.
 12. Product 5 and 8 is common among females.
 
-## Recommendations
+### Recommendations
 1. Men spent more money than women, So company should focus on retaining the male customers and getting more male customers.
 2. Product_Category - 1, 5, 8, & 11 have highest purchasing frequency. it means these are the products in these categories are liked more by customers. Company can focus on * selling more of these products or selling more of the products which are purchased less.
 3. Unmarried customers spend more money than married customers, So company should focus on acquisition of Unmarried customers.
